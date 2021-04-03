@@ -1,0 +1,27 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "Chat server for vue chat app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehtaAnmol/chat-server.git"
+  },
+  "author": "Anmol Mehta <mehta.anmol48@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehtaAnmol/chat-server/issues"
+  },
+  "homepage": "https://github.com/MehtaAnmol/chat-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
